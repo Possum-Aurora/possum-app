@@ -1,0 +1,27 @@
+:root {
+    /* font size */
+
+    /* font color style */
+    --whiteColor: #fff;
+    --itemContentLabelColor: #979FB5;
+    --itemContentBorderColor: #1B88FF;
+    --butBorderColor: #177FFB;
+    --fixedRateColor: #1F2127;
+    --anwserColor: #40444F;
+    --loadMoreColor: #545D7A;
+    --redCardColor: #FC077D;
+    --columnColor: #99A0B7;
+    --clColor: #26A27C;
+
+    /* background color style */
+    --baseBgColor: red;
+    --mainBgColoe: #1F2127;
+    --menuBgColor: var(--whiteColor);
+    --selMenuBgColor: blueviolet;
+    --headerBg: #191B1F;
+    --headerMenuBgColor: #111317;
+    --switchWalletBgColor: #162439;
+    --switchWalletBorderBgColor: #2172E5;
+    --fixFundingBgColor: #F1F1F2;
+    --fixFundingHeaderBgColor: #EEEEEE;
+}

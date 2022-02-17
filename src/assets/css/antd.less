@@ -1,0 +1,133 @@
+// layout menu
+.ant-layout-header {
+    padding: 0;
+    height: var(--headerHg);
+    background: var(--headerBg);
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+}
+
+.ant-layout-sider {
+    background: var(--baseBgColor);
+}
+
+.ant-menu {
+    background: var(--headerBg);
+}
+
+.ant-menu-sub.ant-menu-inline {
+    background: var(--baseBgColor);
+}
+
+.ant-menu-root.ant-menu-inline {
+    border: none;
+}
+
+.ant-layout-content {
+    background: var(--mainBgColoe);
+    min-height: 100vh;
+}
+
+.ant-menu-inline .ant-menu-item {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: var(--menuHg);
+    line-height: var(--menuHg);
+}
+
+.ant-menu-inline .ant-menu-item:not(:last-child) {
+    margin-bottom: 0;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: var(--selMenuBgColor);
+}
+
+.ant-menu-inline .ant-menu-item::after {
+    border-right: 3px solid var(--menuBgColor);
+}
+
+.ant-menu-sub.ant-menu-inline > .ant-menu-item {
+    height: var(--menuHg);
+    line-height: var(--menuHg);
+}
+
+//  horizontal menu
+.ant-menu-horizontal {
+    display: flex;
+    align-items: center;
+    height: var(--headerHg) !important;
+    line-height: var(--headerHg) !important;
+}
+
+.ant-menu-horizontal > .ant-menu-item {
+    position: relative !important;
+}
+
+.ant-menu-vertical {
+    border-right: none;
+}
+
+.ant-menu-submenu-popup > .ant-menu {
+    background: var(--baseBgColor);
+}
+
+.ant-menu-vertical .ant-menu-item {
+    margin: 0;
+}
+
+.ant-menu-horizontal {
+    border-bottom: none;
+}
+
+.anticon {
+    margin-left: 5px;
+    color: #979FB5;
+}
+
+.ant-progress-text {
+    display: none;
+}
+.ant-progress-show-info .ant-progress-outer {
+    padding: 0 30px;  
+}
+// .ant-progress-inner {
+//     box-shadow: 0px 0px 6px 3px #FC077D;
+// }
+
+.ant-progress-success-bg {
+    background: #FC077D;
+}
+
+.ant-progress-bg {
+    background-color: #2172E5;
+}
+
+.ant-input-number-focused {
+    border: none;
+    box-shadow: none;
+}
+.ant-input-number-handler-wrap {
+    display: none;
+}
+
+.FlipClock .flipUnitContainer .ContainerTitle {
+    font-size: 12px !important;
+    color: #fff !important;
+}
+
+// .ant-skeleton {
+//     width: 200px;
+// }
+
+// .ant-skeleton-content{
+//     display: flex;
+//     justify-content: flex-end;
+// }
+
+// .ant-skeleton-content .ant-skeleton-title + .ant-skeleton-paragraph {
+//     display: none;
+// }

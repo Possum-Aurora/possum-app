@@ -1,0 +1,97 @@
+{
+  "name": "Possum",
+  "version": "0.1.0",
+  "private": true,
+  "author": "kaiyang 974745117@qq.com",
+  "keywords": [
+    "react",
+    "react-hooks",
+    "hooks",
+    "ethereum",
+    "javascript",
+    "typescript",
+    "web3",
+    "context",
+    "frontend",
+    "dapp",
+    "metamask",
+    "walletconnect"
+  ],
+  "dependencies": {
+    "@craco/craco": "^6.4.3",
+    "@ethersproject/providers": "^5.5.1",
+    "@reduxjs/toolkit": "^1.7.1",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-redux": "^7.1.21",
+    "@types/react-router-dom": "^5.3.2",
+    "@web3-react/authereum-connector": "latest",
+    "@web3-react/core": "latest",
+    "@web3-react/fortmatic-connector": "latest",
+    "@web3-react/frame-connector": "latest",
+    "@web3-react/injected-connector": "latest",
+    "@web3-react/lattice-connector": "latest",
+    "@web3-react/ledger-connector": "latest",
+    "@web3-react/magic-connector": "latest",
+    "@web3-react/network-connector": "latest",
+    "@web3-react/portis-connector": "latest",
+    "@web3-react/torus-connector": "latest",
+    "@web3-react/trezor-connector": "latest",
+    "@web3-react/walletconnect-connector": "latest",
+    "@web3-react/walletlink-connector": "latest",
+    "antd": "^4.17.2",
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "craco-less": "^2.0.0",
+    "echarts": "^5.2.2",
+    "echarts-for-react": "^3.0.2",
+    "ethers": "^5.5.2",
+    "http": "0.0.1-security",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-intl": "^5.22.0",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.0.2",
+    "react-scripts": "4.0.3",
+    "redux": "^4.1.2",
+    "redux-localstorage-simple": "^2.4.1",
+    "styled-components": "^5.3.3",
+    "typescript": "^4.1.2",
+    "web-vitals": "^1.0.1",
+    "x-react-flipclock": "^0.1.184153"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "eject": "react-scripts eject"
+  },
+  "bin": {
+    "kai-yang-web3-react-cli": "./bin/index.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/styled-components": "^5.1.16"
+  }
+}
