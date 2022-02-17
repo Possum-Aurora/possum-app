@@ -24,7 +24,6 @@ module.exports = {
                     lessOptions: {
                         modifyVars: { },
                         javascriptEnabled: true,
-                        // 配置全局less变量，不需要在使用的地方导入了
                         globalVars: {}
                     }
                 },
